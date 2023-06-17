@@ -1,0 +1,174 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Lato;
+
+}
+
+@font-face {
+
+    font-family: Lato;
+    src: url(/fontes/Lato-Regular.ttf);
+}
+
+#header {
+
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    background-color: #F16A27;
+
+}
+
+#banner {
+
+    background-image: url(./Imagens/hero_bolo.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Content {
+
+
+    max-width: 990px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 100px;
+
+
+
+}
+
+h1 {
+
+
+    color: #ff6b28;
+    font-size: 48px;
+
+}
+
+h2 {
+
+    color: #ff6b28;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #ff6b28;
+    padding-bottom: 40px;
+    font-size: 28px;
+
+}
+
+.card {
+
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 15px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+}
+
+
+
+
+
+
+.ingredientes {
+    cursor: url("./Imagens/cursor_ingredientes.png"), default;
+
+
+    padding: 2px 16px;
+
+
+}
+
+#lista-ingredientes {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+li {
+    margin-top: 10px;
+    margin-left: 35px;
+    line-height: 28px;
+
+
+}
+
+
+
+
+
+#botao {
+    text-align: center;
+    background-color: #ff6b28;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+
+
+
+
+
+}
+
+#botao :visited,
+link,
+:active {
+    color: white;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.mododepreparo {
+    cursor: url("./Imagens/cursor_preparo.png"), default;
+
+}
+
+
+
+.instrucoes {
+    cursor: url("./Imagens/cursor_intrucoes.png"), default;
+    line-height: 28px;
+
+}
+
+
+
+.footer {
+
+    padding: 2px;
+    text-align: center;
+    background-color: #F16A27;
+    color: white;
+    font-family: Lato;
+    line-height: 24px;
+    margin: auto;
+    font-size: 16px;
+    border: 0;
+
+
+
+}
